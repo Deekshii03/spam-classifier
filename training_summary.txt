@@ -1,0 +1,13 @@
+Spam Classifier Training Summary
+Best model: LinearSVC
+Accuracy: 0.9824
+Spam F1-score: 0.9286
+Dataset rows after cleaning: 5124
+Ham messages: 4497
+Spam messages: 627
+Test samples: 1025
+
+Model comparison:
+- MultinomialNB: accuracy=0.9707, spam_f1=0.8636, confusion_matrix=[[900, 0], [30, 95]]
+- LogisticRegression: accuracy=0.9776, spam_f1=0.9105, confusion_matrix=[[885, 15], [8, 117]]
+- LinearSVC: accuracy=0.9824, spam_f1=0.9286, confusion_matrix=[[890, 10], [8, 117]]

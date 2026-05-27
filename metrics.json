@@ -1,0 +1,63 @@
+{
+  "best_model": "LinearSVC",
+  "accuracy": 0.9824,
+  "spam_f1": 0.9286,
+  "confusion_matrix": [
+    [
+      890,
+      10
+    ],
+    [
+      8,
+      117
+    ]
+  ],
+  "dataset_rows": 5124,
+  "ham_count": 4497,
+  "spam_count": 627,
+  "test_samples": 1025,
+  "model_comparison": {
+    "MultinomialNB": {
+      "accuracy": 0.9707,
+      "spam_f1": 0.8636,
+      "confusion_matrix": [
+        [
+          900,
+          0
+        ],
+        [
+          30,
+          95
+        ]
+      ]
+    },
+    "LogisticRegression": {
+      "accuracy": 0.9776,
+      "spam_f1": 0.9105,
+      "confusion_matrix": [
+        [
+          885,
+          15
+        ],
+        [
+          8,
+          117
+        ]
+      ]
+    },
+    "LinearSVC": {
+      "accuracy": 0.9824,
+      "spam_f1": 0.9286,
+      "confusion_matrix": [
+        [
+          890,
+          10
+        ],
+        [
+          8,
+          117
+        ]
+      ]
+    }
+  }
+}
